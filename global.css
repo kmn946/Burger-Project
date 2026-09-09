@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 5000px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.container{
+    width: 85%;
+    
+    overflow:auto;
+    margin: auto;
+    
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+section{
+    padding: 40px 0;
+}
